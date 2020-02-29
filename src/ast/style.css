@@ -113,7 +113,7 @@ h3 {
   background-color: darksalmon;
 }
 
-.stayMoveBtn {
+.stayBtn {
   background-color: aqua;
   position: absolute;
   z-index: 20;

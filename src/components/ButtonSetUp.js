@@ -141,9 +141,9 @@ class ButtonSetUp extends Component {
                   type="button"
                   onClick={this.stay}
                   style={{ top: this.calcPos(400), left: this.calcPos(800) }}
-                  className="stayMoveBtn setUpBtn"
+                  className="stayBtn setUpBtn"
                 >
-                  Stay Move
+                  Stay
                 </button>
               </>
             ) : null}
