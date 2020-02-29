@@ -1,0 +1,336 @@
+/* -------------------- GLOBAL ELEMENT -------------------- */
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* -------------------- APP ELEMENT -------------------- */
+.appFullDiv {
+  background-color: bisque;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  min-width: 550px;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.appHeader {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.appHit {
+  color: blue;
+}
+
+.appStay {
+  color: purple;
+}
+
+.appRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.appCol {
+  display: flex;
+  flex-direction: column;
+}
+
+/* -------------------- TABLE ELEMENT -------------------- */
+.tableFullDiv {
+  background-color: aquamarine;
+  border-radius: 10px;
+  width: 65vw;
+  min-height: 350px;
+  min-width: 450px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardSecDiv {
+  display: flex;
+}
+
+.playerSecDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* -------------------- BTN SET UP ELEMENT -------------------- */
+.btnSetUpDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px 0;
+  background-color: cadetblue;
+  border-radius: 5px;
+}
+
+.setUpBtn {
+  height: 35px;
+  width: 125px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+  margin-bottom: 15px;
+}
+
+.newDeckBtn {
+  background-color: burlywood;
+}
+
+.addPlayerBtn {
+  background-color: cornflowerblue;
+}
+
+.maxPlayerBtn {
+  background-color: violet;
+}
+
+.startGameBtn {
+  background-color: darkcyan;
+}
+
+.nextRoundBtn {
+  background-color: slateblue;
+}
+
+.resetBtn {
+  background-color: darksalmon;
+}
+
+.stayMoveBtn {
+  background-color: aqua;
+  position: absolute;
+  z-index: 20;
+  border-width: 3px;
+  border-color: black;
+  border-style: dashed;
+}
+
+.selectMode {
+  height: 35px;
+  width: 125px;
+  margin: 0 10px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* -------------------- CARD ELEMENT -------------------- */
+.cardDiv {
+  height: 70px;
+  width: 50px;
+  background-color: azure;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+  font-size: 25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  color: black;
+  position: relative;
+}
+
+.cardColorRed {
+  color: red;
+}
+
+.cardCoverDiv {
+  width: 100%;
+  height: 100%;
+  background-color: linen;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coveredText {
+  transform: rotate(52deg);
+  font-size: 18px;
+  color: black;
+}
+
+/* -------------------- PLAYER ELEMENT -------------------- */
+.playerDiv {
+  width: 275px;
+  min-height: 150px;
+  background-color: lightgray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  position: relative;
+}
+
+.livePlayertrue {
+  background-color: rgba(0, 191, 255, 0.7);
+}
+
+.playerHandDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 105px;
+}
+
+.bustedDiv {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(180, 180, 180, 0.7);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bustedText {
+  transform: rotate(45deg);
+  font-size: 35px;
+  font-weight: bold;
+  color: orangered;
+}
+
+/* -------------------- STATUS ELEMENT -------------------- */
+.statusFullDiv {
+  background-color: lightsalmon;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* -------------------- TRACKER ELEMENT -------------------- */
+.trackerFullDiv {
+  background-color: chartreuse;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 3px;
+  margin-left: 10px;
+  min-width: 150px;
+}
+
+.trackerHR {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  width: 100%;
+}
+
+.trackPlayer {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* -------------------- HOUSE ELEMENT -------------------- */
+.houseFullDiv {
+  display: flex;
+  background-color: lightslategray;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+/* -------------------- END MESSAGE ELEMENT -------------------- */
+.endMsgFullDiv {
+  position: absolute;
+  z-index: 5;
+  background-color: rgba(200, 200, 200, 0.6);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.endMsgInside {
+  min-width: 33%;
+  min-height: 33%;
+  background-color: skyblue;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.msgTextDiv {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: lightgray;
+  border-radius: 3px;
+}
+
+.msgTextHeader {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.msgText {
+  margin-bottom: 5px;
+}
+
+.msgTexttrue {
+  color: green;
+}
+
+.msgTextfalse {
+  color: crimson;
+}
+
+.engMsgBtnDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.endMsgBtn {
+  height: 35px;
+  width: 125px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: tan;
+}
